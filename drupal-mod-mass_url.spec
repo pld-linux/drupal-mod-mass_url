@@ -1,5 +1,6 @@
 %define		modname mass_url
 Summary:	Drupal Mass URL Module
+SUmmary(pl):	Modu³ Mass URL dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.1
@@ -16,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_moddir		%{_drupaldir}/modules
 
 %description
-A module that allows for easy mass url aliasing, not requiring the use
+A module that allows for easy mass URL aliasing, not requiring the use
 of path.module for many types of common URLs.
 
 Currently this module only supports user page and user blog URLs.
@@ -30,6 +31,17 @@ pages), and user names must be entered exactly as they are formatted
 (including spaces). I hope to implement some kind of fuzzy filtering
 soon, but that's a big task...
 
+%description -l pl
+Modu³ umo¿liwiaj±cy ³atwe masowe tworzenie aliasów dla URL-i, bez
+potrzeby u¿ywania path.module dla wielu rodzajów popularnych URL-i.
+
+Aktualnie ten modu³ obs³uguje tylko URL-e do stron i blogów
+u¿ytkowników.
+
+Po zainstalowaniu strona u¿ytkownika jest dostêpna jako
+<http://domena.com/user/nazwa>, a blog u¿ytkownika jako
+<http://domena.com/blog/nazwa>. 
+
 %prep
 %setup -q -n %{modname}
 rm -f LICENSE.txt # GPL v2
@@ -42,7 +54,6 @@ install *.module $RPM_BUILD_ROOT%{_moddir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
