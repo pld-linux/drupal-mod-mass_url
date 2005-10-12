@@ -1,6 +1,6 @@
 %define		modname mass_url
 Summary:	Drupal Mass URL Module
-SUmmary(pl):	Modu³ Mass URL dla Drupala
+Summary(pl):	Modu³ Mass URL dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.1
@@ -24,7 +24,7 @@ Currently this module only supports user page and user blog URLs.
 
 When installed, a user's account page is accessible via
 <http://example.com/user/username>, and a user's blog is accessible
-via <http://example.com/blog/username>. 
+via <http://example.com/blog/username>.
 
 As of now, only view functions are available (no edit for account
 pages), and user names must be entered exactly as they are formatted
@@ -40,7 +40,7 @@ u¿ytkowników.
 
 Po zainstalowaniu strona u¿ytkownika jest dostêpna jako
 <http://domena.com/user/nazwa>, a blog u¿ytkownika jako
-<http://domena.com/blog/nazwa>. 
+<http://domena.com/blog/nazwa>.
 
 %prep
 %setup -q -n %{modname}
