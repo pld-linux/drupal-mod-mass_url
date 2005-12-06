@@ -3,7 +3,7 @@ Summary:	Drupal Mass URL Module
 Summary(pl):	Modu³ Mass URL dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
-Release:	0.3
+Release:	0.4
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://drupal.org/files/projects/mass_url-cvs.tar.gz
