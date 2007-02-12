@@ -1,6 +1,6 @@
 %define		modname mass_url
 Summary:	Drupal Mass URL Module
-Summary(pl):	Modu≥ Mass URL dla Drupala
+Summary(pl.UTF-8):   Modu≈Ç Mass URL dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.4
@@ -32,15 +32,15 @@ pages), and user names must be entered exactly as they are formatted
 (including spaces). I hope to implement some kind of fuzzy filtering
 soon, but that's a big task...
 
-%description -l pl
-Modu≥ umoøliwiaj±cy ≥atwe masowe tworzenie aliasÛw dla URL-i, bez
-potrzeby uøywania path.module dla wielu rodzajÛw popularnych URL-i.
+%description -l pl.UTF-8
+Modu≈Ç umo≈ºliwiajƒÖcy ≈Çatwe masowe tworzenie alias√≥w dla URL-i, bez
+potrzeby u≈ºywania path.module dla wielu rodzaj√≥w popularnych URL-i.
 
-Aktualnie ten modu≥ obs≥uguje tylko URL-e do stron i blogÛw
-uøytkownikÛw.
+Aktualnie ten modu≈Ç obs≈Çuguje tylko URL-e do stron i blog√≥w
+u≈ºytkownik√≥w.
 
-Po zainstalowaniu strona uøytkownika jest dostÍpna jako
-<http://domena.com/user/nazwa>, a blog uøytkownika jako
+Po zainstalowaniu strona u≈ºytkownika jest dostƒôpna jako
+<http://domena.com/user/nazwa>, a blog u≈ºytkownika jako
 <http://domena.com/blog/nazwa>.
 
 %prep
