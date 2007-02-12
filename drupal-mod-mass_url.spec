@@ -1,6 +1,6 @@
 %define		modname mass_url
 Summary:	Drupal Mass URL Module
-Summary(pl.UTF-8):   Moduł Mass URL dla Drupala
+Summary(pl.UTF-8):	Moduł Mass URL dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	0.1.cvs
 Release:	0.4
